@@ -5,6 +5,12 @@
 #include <vector>
 #include <algorithm>
 
+//INSTRUCTIONS
+/*Write a method that takes a DNA segment as shown below, displays the list of the codons 
+(from most frequently appeared ones to least used ones) with how many times each codon that appears in a DNA segment.
+Please use a map container in order to create a hash table and store frequency values of each codon that 
+appears in the given DNA segment.*/
+
 int makeHash(std::string codon)
 {
    int num = 10;
